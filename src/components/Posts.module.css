@@ -1,0 +1,235 @@
+.pub{
+    width: 100%;
+    height: 164.3vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5vh;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.perfilpost{
+    width: 100%;
+    height: 11.1vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.perfilpost p{
+    margin-left: 2%;
+    font-size: 13px;
+}
+
+.mais{
+    width: 3%;
+    height: 3vh;
+    margin-left: 70%;
+    cursor: pointer;
+}
+.bolinhapost{
+    width:8%;
+    height:8vh;
+    border-radius: 100px;
+    background-color: rgb(208, 255, 0);
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.bolinhapost img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foto{
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+    cursor: pointer;
+    
+}
+
+.foto img{
+    max-width:100%;
+    height: 110vh;
+    object-fit: cover;
+}
+
+.reagir{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.reagir img{
+    width: 4%;
+    height: 4vh;
+    cursor: pointer;
+}
+
+.heart{
+    margin-left: 2%;
+}
+
+.chat{
+    margin-left: 2%;
+    
+}
+
+.direct{
+    margin-left: 2%;
+    
+}
+
+.save{
+    margin-left: 75%;
+}
+
+.gostos{
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    font-size: 13px;
+}
+
+.gostos p{
+    margin-left: 2%;
+}
+
+
+
+
+
+.descricao{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.negrito {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.descricao p{
+    margin-top: 1vh;
+    margin-left: 2%;
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+
+.descricao a{
+    margin-top: 1vh;
+    margin-left: 2%;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.vercomentarios{
+    width: 100%;
+    height: 4vh;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.vercomentarios a{
+    margin-left: 2%;
+    font-size: 14px;
+    color: rgb(163, 163, 163);
+    cursor: pointer;
+}
+
+.comentarios1{
+    width: 98%;
+    height:4vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+    text-align: left;
+}
+
+.comentarios1 p{
+    margin-left: 1%;
+    font-size: 13px;
+}
+
+.comentarios2{
+    width: 98%;
+    height:4vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+    text-align: left;
+}
+
+.comentarios2 p{
+    margin-left: 1%;
+    font-size: 13px;
+}
+
+
+
+
+.horas{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.horas p{
+    font-size: 10px;
+    margin-left: 2%;
+
+}
+
+.addcomentario{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(192, 192, 192);
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.addcomentario img{
+    width: 4%;
+    height: 4vh;
+    margin-left: 2%;
+}
+
+.addcomentario a{
+    margin-right: 2%;
+}
+
+.addcomentario input{
+    width: 80%;
+    height: 10vh;
+    border-color:transparent;
+    font-size: 15px;
+}
+
+.addcomentario input:focus{
+    outline: none;
+}

@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App a{
+  text-decoration: none;
+}
+
+.header{
+  width: 100%;
+  height: 9vh;
+}
+.navbar{
+  position:fixed;
+  width: 100%;
+  height:9vh ;
+  border-bottom: 0.5px solid rgb(211, 211, 211);
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  z-index: 1;
+}
+
+.navbar img{
+  cursor: pointer;
+}
+
+.logo{
+  width:7.5%;
+  height:4.5vh;
+  margin-top: 1vh;
+  margin-left: 15%;
+}
+.casa{
+  width:1.5%;
+  height:3.3vh;
+  margin-left: 38%;
+}
+.direct{
+  width:1.5%;
+  height:3.3vh;
+}
+.mais{
+  width:1.5%;
+  height:3.3vh;
+}
+.compass{
+  width:1.5%;
+  height:3.3vh;
+}
+.heart{
+  width:1.5%;
+  height:3.3vh;
+
+}
+
+.bolinhapfpnav{
+  width:2.5%;
+  height:5vh;
+  border-radius: 50px;
+  margin-right: 20%;
+  background-color: blueviolet;
+}
+
+.bolinhapfpnav img{
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+
+}
+
+
+
+.feed{
+  position: relative;
+  width: 50%;
+  height: auto;
+  margin-left: 13%;
+  margin-top: 24px;
+  float: left;
+  
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+.stories{
+  width: 100%;
+  height:18vh;
+  background-color: #fff;
+  border: 1px solid rgb(192, 192, 192);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bolinhastories{
+  width:97%;
+  height:11vh;
+  border-radius: 100px;
+  background-color: rgb(208, 255, 0);
+  margin-left: 5%;
+}
+
+.bolinhastories img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.nomestories{
+  text-align: center;
+  width: 12%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-top: 2vh;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+
+.nomestories2{
+  text-align: center;
+  width: 12%;
+  height: 15vh;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin-right: 14%;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
